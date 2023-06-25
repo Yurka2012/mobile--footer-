@@ -151,6 +151,7 @@ input {
   .connect {
     margin-left: 70px;
     margin-right: 93px;
+    /* margin-top: 72px; */
   }
   /* .ROZSILKA-container{
 
@@ -164,8 +165,18 @@ input {
     margin-right: 12px;
   }
   .sub {
+    display: block;
     width: 200px;
-
+    height: 50px;
+    flex-shrink: 0;
+    align-items: center;
+    /* margin-top: 72px; */
+  }
+  .tg {
+    width: 24px;
+    height: 24px;
+  }
+  .swub {
     color: #fff;
     text-align: center;
     font-size: 16px;
@@ -173,6 +184,12 @@ input {
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
-    height: 50px;
   }
+  .ROZSILKA-container {
+    padding-bottom: 72px;
+  }
+  /* .footer {
+    width: 1200px;
+    height: 252px;
+  } */
 }
