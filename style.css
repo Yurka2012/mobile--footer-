@@ -96,23 +96,83 @@ input {
   margin-top: 20px;
   display: block;
 }
-.ROZSILKA-container{
-    /* text-align: center; */
+.ROZSILKA-container {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.twitter-li:not(:first-child) {
+  margin-left: 10px;
+}
+.connect {
+  margin-bottom: 60px;
+}
+.footer {
+  padding: 60px 0;
+}
+input {
+  width: 450px;
+}
+@media (min-width: 768px) {
+  .text-connect-cont {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    /* margin-right: 76px; */
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  .container {
+    min-width: 768px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  input {
+    max-width: 450px;
+    margin: 20px auto;
+  }
 }
+@media (min-width: 320px) {
+  input {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .pc-wrapper {
+    display: flex;
+    /* margin-right: 76px; */
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  .connect {
+    margin-left: 70px;
+    margin-right: 93px;
+  }
+  /* .ROZSILKA-container{
 
-.twitter-li:not(:first-child){
-    margin-left: 10px;
-}
-.connect{
-    margin-bottom: 60px;
-}
-.footer{
-    padding: 60px 0;
+    } */
+  .inp-but {
+    display: flex;
+    align-items: center;
+  }
+  input {
+    max-width: 358px;
+    margin-right: 12px;
+  }
+  .sub {
+    width: 200px;
 
-}
-@media(min-width:770px){
-
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    height: 50px;
+  }
 }
